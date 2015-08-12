@@ -8,7 +8,7 @@ return array(
 
 	//'URL_MODEL' => '2',
 
-  'DOMAIN_NAME' => 'http://www.zoohang.com',
+  'DOMAIN_NAME' => 'http://localhost/baseWEB',
   // 配置邮件发送服务器
   'MAIL_HOST' =>'smtp.qq.com',//smtp服务器的名称
   'MAIL_SMTPAUTH' =>TRUE, //启用smtp认证
