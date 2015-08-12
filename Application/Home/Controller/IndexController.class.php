@@ -7,26 +7,6 @@ class IndexController extends Controller {
       $this->display();
     }
 
-    public function login()
-    {
-        $this->display();
-    }
-
-    public function doLogin()
-    {
-
-    }
-
-    public function register()
-    {
-        $this->display();
-    }
-
-    public function doRegister()
-    {
-
-    }
-
     public function home()
     {
     	$this->display();
