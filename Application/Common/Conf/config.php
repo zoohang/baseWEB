@@ -29,7 +29,7 @@ return array(
   'DB_DSN'       =>  '',     // 数据库连接DSN 用于PDO方式
   'DB_CHARSET'   =>  'utf8', // 数据库的编码 默认为utf8
 
-  'URL_ROUTER_ON'   => true,  //开启路由
+  'URL_ROUTER_ON'   => false,  //开启路由
   'URL_ROUTE_RULES'=>array(
     'home'  => 'Home/Index/home',
     'about' => 'Home/Index/about',
