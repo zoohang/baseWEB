@@ -1,0 +1,570 @@
+﻿
+/*-------------------Banner Style------------------------*/
+
+.bar
+{
+    width: 201px;
+}
+
+#left
+{
+    float: left;
+}
+
+#right
+{
+    float: right;
+}
+
+#center
+{
+    margin-left: 201px;
+}
+
+#myText
+{
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*-------------------Body Style------------------------*/
+
+body
+{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto auto auto;
+    color: #424849;
+    font-size: 12px;
+}
+
+#main_container
+{
+    width: 1005px;
+    margin: auto;
+    padding: 0px;
+}
+#main_container1
+{
+    width: 1005px;
+    margin: auto;
+    padding: 0px;
+}
+#header
+{
+    width: 1005px;
+    margin: auto;
+}
+
+#ContentStyle
+{
+    width: 792px;
+    margin: auto;
+    height: 550px; /*overflow:auto; */
+}
+#tblWorkingArea
+{
+    width: 790px;
+    height: 550px;
+}
+
+
+#logo
+{
+    width: 120px;
+    height: 60px;
+    float: left;
+    background-color: #F3F5F6;
+}
+.banner_adds
+{
+    width: 750px;
+    float: left;
+}
+#HeaderBorder
+{
+    width: 1005px;
+    background-color: #8FC3E9;
+    height: 5px;
+}
+
+/*-------------------Label Style------------------------*/
+
+.lblStyle_Login
+{
+    font-family: Arial;
+    font-size: 10pt;
+}
+.lblStyle
+{
+    font-family: Arial;
+    font-size: 9pt;
+    color: #00008B;
+}
+.lblStyle_SubHeading
+{
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+}
+/*------------------- Msg------------------------*/
+
+.ErrMsg
+{
+    font-family: Arial;
+    font-size: 9pt;
+    color: Red;
+}
+
+.SuccessMsg
+{
+    font-family: Arial;
+    font-size: 9pt;
+    color: Green;
+}
+
+
+
+/*-------------------Button Style------------------------*/
+
+.btnStyle
+{
+    font-family: Arial;
+    font-size: 10pt;
+    width: 70px;
+}
+/*-------------------Menu Style------------------------*/
+
+.MenuItem
+{
+    font-family: Arial;
+    font-size: xx-large;
+}
+
+.FocusedCssClass
+{
+    background-color: #C0FFC0 !important;
+}
+
+
+
+
+.GridEditWindow
+{
+    font-family: Arial;
+    font-size: 12px;
+    color: Navy;
+}
+
+.Test
+{
+    /* font-family:Arial; 	font-size:12px; 	color:Navy; */
+    background-color: Blue;
+}
+/*-------------------footer------------------------*/
+
+
+#FooterTable
+{
+    height: 25px;
+    width: 1005px;
+    background-color: #0000CD;
+}
+
+.EditedItem, .EditedItem TABLE TR
+{
+    background-color: #ffffe1;
+    background-image: none;
+}
+.EditRow TD
+{
+    border-bottom: 1px solid #d9d6cf;
+}
+
+/*-------------------Text box style------------------------*/
+.textbox
+{
+    text-align: right;
+}
+
+/*-----------------Menu------------------------------------*/
+
+
+.breadcrumb a
+{
+    text-decoration: none;
+    outline: none;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 25px;
+    color: white;
+    padding: 0 10px 0 60px;
+    background: #666;
+    background: linear-gradient(#666, #333);
+    position: relative;
+  
+}
+
+.breadcrumb a:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -13px;
+    width: 25px;
+    height: 25px;
+ 
+    
+    z-index: 1;
+    background: #666;
+    background: linear-gradient(135deg, #666, #333);
+    border-radius: 0 5px 0 50px;
+   
+     transform: scale(0.707) rotate(45deg);;
+    -ms-transform: scale(0.707) rotate(45deg);; /* IE 9 */
+    -webkit-transform: scale(0.707) rotate(45deg);; /* Opera, Chrome, and Safari */
+}
+.flat a, .flat a:after
+{
+    background: #398EC6;
+    color: white;
+    transition: all 0.5s;
+
+}
+.flat a.active, .flat a.active:after
+{
+    background: #0071B5;
+}
+
+
+/*************************** Css Code for Arabic */
+.breadcrumbarb a
+{
+    text-decoration: none;
+    outline: none;
+    display: block;
+    float: right;
+    font-size: 12px;
+    line-height: 25px;
+    color: white;
+    padding: 0 60px 0 10px;
+    background: #666;
+    background: linear-gradient(#666, #333);
+    position: relative;
+}
+.breadcrumbarb a:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    margin-left: -13px;
+    width: 25px;
+    height: 25px;
+    
+    background: linear-gradient(135deg, #666, #333);
+    z-index: 1;
+    background: #666;
+    border-radius: 0 5px 0 50px;
+   
+     transform: scale(0.707) rotate(225deg);
+    -ms-transform: scale(0.707) rotate(225deg); /* IE 9 */
+    -webkit-transform: scale(0.707) rotate(225deg); /* Opera, Chrome, and Safari */
+}
+.flatarb a, .flatarb a:after
+{
+    background: #398EC6;
+    color: white;
+    transition: all 0.5s;
+    top: 0px;
+    left: 0px;
+    height: 25px;
+}
+.flatarb a.active, .flatarb a.active:after
+{
+    background: #0071B5;
+}
+
+.tab
+{
+    background: transparent url(../Images/navigation-sprite.png) no-repeat;
+    text-decoration: none;
+    font-size: 13px;
+    color: white !important;
+    background-position: 0 0;
+    float: left;
+    text-align: center;
+    margin: 0 2px;
+    line-height: 26px;
+}
+
+.selectedTab
+{
+    background-position: 0 -26px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #187ecc !important;
+    background-image: transparent url(../Images/navigation-sprite.png) no-repeat !important;
+}
+
+.hoveredTab
+{
+    background-image: url(../Images/navigation-sprite.png);
+}
+
+
+.radmenu
+{
+    background: #398EC6;
+    width: 200px !important;
+    text-align: center !important;
+    color: Red !important;
+}
+.fdpanel
+{
+    border: 1px;
+    border-radious: 10px 10px 10px 10px;
+}
+
+.myRadbutton
+{
+    background-color: #599bb3 !important;
+    color: #599bb3 !important;
+}
+
+.myButton
+{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #006584));
+    background: -moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background: -webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background: -o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background: -ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+    background-color: #599bb3;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+}
+
+.myButton:hover
+{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+    background: -moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: -webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: -o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: -ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+    background-color: #408c99;
+}
+
+.myButton:active
+{
+    position: relative;
+    top: 1px;
+}
+
+.newContact
+{
+    border: 2px;
+    border-radious: 5px 5px 5px 5px;
+}
+
+/*--------------Rad button---------------------*/
+
+/*.RadButton.rbLinkButton.css3Grad
+{
+    border: 0;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 3px 7px #666;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+    background: -moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: -webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: -o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: -ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+    color: White;
+    font-family: arial;
+}
+*/
+.RadButton.rbLinkButton.css3GradBlue
+{
+    background: -moz-linear-gradient(top, #3873b8 0%, #3873b8 100%) !important;
+    background: -webkit-linear-gradient(top, #3873b8 0%, #3873b8 100%) !important;
+    background: -o-linear-gradient(top, #3873b8 0%, #3873b8 100%) !important;
+    background: -ms-linear-gradient(top, #3873b8 0%, #3873b8 100%) !important;
+    background: linear-gradient(to bottom, #3873b8 0%, #3873b8 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3873b8', endColorstr='#3873b8',GradientType=0);
+    background-color: #3873b8 !important;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom-width: 5px !important;
+    border-bottom-color: #0f214a !important;
+    border-bottom-style: solid !important;
+    border-collapse: inherit !important;
+}
+
+.RadButton.rbLinkButton.css3GradBlue:hover
+{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0f214a), color-stop(1, #0f214a)) !important;
+    background: -moz-linear-gradient(top, #0f214a 0%, #0f214a 100%) !important;
+    background: -webkit-linear-gradient(top, #0f214a 0%, #0f214a 100%) !important;
+    background: -o-linear-gradient(top, #0f214a 0%, #0f214a 100%) !important; 
+    background: -ms-linear-gradient(top, #0f214a 0%, #0f214a 100%) !important;
+    background: linear-gradient(to bottom, #0f214a 0%, #0f214a 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f214a', endColorstr='#0f214a',GradientType=0);
+    background-color: #0f214a !important;
+}
+
+
+.RadButton.rbLinkButton.css3GradOrange
+{
+    background: -moz-linear-gradient(top, #ef6522 0%, #ef6522 100%) !important;
+    background: -webkit-linear-gradient(top, #ef6522 0%, #ef6522 100%) !important;
+    background: -o-linear-gradient(top, #ef6522 0%, #ef6522 100%) !important;
+    background: -ms-linear-gradient(top, #ef6522 0%, #ef6522 100%) !important;
+    background: linear-gradient(to bottom, #ef6522 0%, #ef6522 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef6522', endColorstr='#ef6522',GradientType=0);
+    background-color: #ef6522 !important;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom-width: 5px !important;
+    border-bottom-color: #db3d04 !important;
+    border-bottom-style: solid !important;
+    border-collapse: inherit !important;
+    text-align :center ;
+}
+
+.RadButton.rbLinkButton.css3GradOrange:hover
+{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #db3d04), color-stop(1, #db3d04)) !important;
+    background: -moz-linear-gradient(top, #db3d04 0%, #db3d04 100%) !important;
+    background: -webkit-linear-gradient(top, #db3d04 0%, #db3d04 100%) !important;
+    background: -o-linear-gradient(top, #db3d04 0%, #db3d04 100%) !important;
+    background: -ms-linear-gradient(top, #db3d04 0%, #db3d04 100%) !important;
+    background: linear-gradient(to bottom, #db3d04 0%, #db3d04 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#db3d04', endColorstr='#db3d04',GradientType=0);
+    background-color: #db3d04 !important;
+}
+
+.RadButton.rbLinkButton.css3GradGreen
+{
+    background: -moz-linear-gradient(top, #a7c63b 0%, #a7c63b 100%) !important;
+    background: -webkit-linear-gradient(top, #a7c63b 0%, #a7c63b 100%) !important;
+    background: -o-linear-gradient(top, #a7c63b 0%, #a7c63b 100%) !important;
+    background: -ms-linear-gradient(top, #a7c63b 0%, #a7c63b 100%) !important;
+    background: linear-gradient(to bottom, #a7c63b 0%, #a7c63b 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a7c63b', endColorstr='#a7c63b',GradientType=0);
+    background-color: #a7c63b !important;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom-width: 5px !important;
+    border-bottom-color: #5a8b3d !important;
+    border-bottom-style: solid !important;
+    border-collapse: inherit !important;
+}
+
+.RadButton.rbLinkButton.css3GradGreen:hover
+{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5a8b3d), color-stop(1, #5a8b3d)) !important;
+    background: -moz-linear-gradient(top, #5a8b3d 0%, #5a8b3d 100%) !important;
+    background: -webkit-linear-gradient(top, #5a8b3d 0%, #5a8b3d 100%) !important;
+    background: -o-linear-gradient(top, #5a8b3d 0%, #5a8b3d 100%) !important;
+    background: -ms-linear-gradient(top, #5a8b3d 0%, #5a8b3d 100%) !important;
+    background: linear-gradient(to bottom, #5a8b3d 0%, #5a8b3d 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5a8b3d', endColorstr='#5a8b3d',GradientType=0);
+    background-color: #5a8b3d !important;
+}
+
+.RadButton.rbLinkButton.css3Grad
+{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #006584)) !important;
+    background: -moz-linear-gradient(top, #0071B5 5%, #408c99 100%) !important;
+    background: -webkit-linear-gradient(top, #0071B5 5%, #408c99 100%) !important;
+    background: -o-linear-gradient(top, #0071B5 5%, #408c99 100%) !important;
+    background: -ms-linear-gradient(top, #0071B5 5%, #408c99 100%) !important;
+    background: linear-gradient(to bottom, #0071B5 5%, #408c99 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0071B5', endColorstr='#408c99',GradientType=0);
+    background-color: #0071B5 !important;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+}
+
+.RadButton.rbLinkButton.css3Grad:hover
+{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3)) !important;
+    background: -moz-linear-gradient(top, #408c99 5%, #599bb3 100%) !important;
+    background: -webkit-linear-gradient(top, #408c99 5%, #599bb3 100%) !important;
+    background: -o-linear-gradient(top, #408c99 5%, #599bb3 100%) !important;
+    background: -ms-linear-gradient(top, #408c99 5%, #599bb3 100%) !important;
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+    background-color: #408c99 !important;
+}
+
+.myButtonnew
+{
+    background: -moz-linear-gradient(top, #ef6522 0%, #ef6522 100%);
+    background: -webkit-linear-gradient(top, #ef6522 0%, #ef6522 100%);
+    background: -o-linear-gradient(top, #ef6522 0%, #ef6522 100%);
+    background: -ms-linear-gradient(top, #ef6522 0%, #ef6522 100%);
+    background: linear-gradient(to bottom, #ef6522 0%, #ef6522 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef6522', endColorstr='#ef6522',GradientType=0);
+    background-color: #ef6522;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom-width: 5px !important;
+    border-bottom-color: #db3d04 !important;
+    border-bottom-style: solid !important;
+    border-collapse: inherit !important;
+}
+
+.myButtonnew:hover
+{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #db3d04), color-stop(1, #db3d04));
+    background: -moz-linear-gradient(top, #db3d04 0%, #db3d04 100%);
+    background: -webkit-linear-gradient(top, #db3d04 0%, #db3d04 100%);
+    background: -o-linear-gradient(top, #db3d04 0%, #db3d04 100%);
+    background: -ms-linear-gradient(top, #db3d04 0%, #db3d04 100%);
+    background: linear-gradient(to bottom, #db3d04 0%, #db3d04 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#db3d04', endColorstr='#db3d04',GradientType=0);
+    background-color: #db3d04;
+}
+.radio{
+        background: #fff;
+        color: #333;
+        font-size: 1.2em;
+        margin: 5px 0 6px 0;
+        padding: 5px;
+        width: 14px;}
+
+       input[type='radio'] {
+        
+       }
+
+       .label { width: auto; display: inline; }
+

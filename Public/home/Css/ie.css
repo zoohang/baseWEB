@@ -1,0 +1,111 @@
+﻿.preview-block.ipad .text-col ul{font-size:12px;}
+.request-section .overlay,
+.preview-block .form-col .overlay{
+	filter: alpha(opacity=70);
+}
+*+html #nav > ul > li:hover > a,
+*+html #nav > ul > li.active > a,
+*+html .nav-panel .repair-link,
+*+html .follow-list a,
+*+html .drop-button > a,
+*+html .drop-button > a span,
+*+html .related-pages .img-box,
+*+html .request-section ul li,
+*+html .promo-section .container,
+*+html .btn-primary.arrow-right,
+*+html .btn-primary.arrow-top,
+*+html .btn-primary.arrow-down,
+*+html .btn-form,
+*+html .promo-about ul li,
+*+html .logos-gallery ul li,
+*+html .contact-box .logo-box,
+*+html .contact-box address strong,
+*+html .dir-link,
+*+html .table-accordion .opener .btn,
+*+html .request-form h2,
+*+html .select-area .select-opener,
+*+html .request-form .form-message,
+*+html .preview-block .text-col ul li,
+*+html .issues-block .title,
+*+html .list-figure ul li,
+*+html .faq-list > li > a,
+*+html .btn-extend span,
+*+html .step-content .ttl,
+*+html .start-block ul li,
+*+html .cta-section .visual-link,
+*+html .steps-section .head-holder{
+	//z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<i class="before"></i>'));
+}
+*+html .list li,
+*+html .how-works-block ol ul li{
+	//z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<i class="before">•</i>'));
+}
+*+html .sitemap li{
+	//z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<i class="before">&gt;</i>'));
+}
+*+html .copy ul li{
+	//z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<i class="before">|</i>'));
+}
+*+html .more{
+	//z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('beforeEnd', '<i class="after"></i>'));
+}
+.before,
+.after{
+	font-style:normal;
+}
+*+html .how-works ol li{
+	behavior: expression(
+	(this.pngSet!=null ? this.pngSet=true : (
+		function(t){
+			t.Num = (++t.parentNode.IEcounter || (t.parentNode.IEcounter = 1));
+			t.lis = '';
+			var _x = t;
+			while (1) {
+				_x = _x.parentNode.parentNode;
+				if (_x.Num) {
+						t.lis = _x.Num + '.' + t.lis;
+				} else {
+					break;
+				}
+			}
+			t.lis += t.Num;
+			t.runtimeStyle.listStyleType = 'none';
+			t.insertAdjacentHTML('afterBegin','<span class="number">' + t.lis  + '</span>');
+		}(this)
+	),this.pngSet=true)
+);
+}
+*+html .how-works-block ol > li{
+	behavior: expression(
+	(this.pngSet!=null ? this.pngSet=true : (
+		function(t){
+			t.Num = (++t.parentNode.IEcounter || (t.parentNode.IEcounter = 1));
+			t.lis = '';
+			var _x = t;
+		while (1) {
+				_x = _x.parentNode.parentNode;
+				if (_x.Num) {
+						t.lis = _x.Num + '.' + t.lis;
+				} else {
+					break;
+				}
+			}
+			t.lis += t.Num;
+			t.runtimeStyle.listStyleType = 'none';
+			t.insertAdjacentHTML('afterBegin','<span class="number">' + t.lis + '.'  + ' </span>');
+		}(this)
+	),this.pngSet=true)
+);
+}
+#nav ul ul,
+.drop-button ul{
+	background:url(../Images/transparent.gif);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0075b4', endColorstr='#0075b4',GradientType=1 );
+}
+.drop-button.tablet ul{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2ff4c6d', endColorstr='#f2ff4c6d',GradientType=0 );
+}
+.banner-block{
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='/wp-content/themes/techocare/images/bg-banner.jpg', sizingmethod='scale');
+}
